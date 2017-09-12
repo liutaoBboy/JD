@@ -1,0 +1,60 @@
+/*放大镜效果处*/
+#moregoods-con{width:1212px;height: 620px;background: #f2f2f2;padding:0 20px 1px 25px;}
+#moregoods-con #good-con-header{width: 1210px;height: 45px;}/*
+#moregoods-con #good-con-header p{width: 100%;height: 45px;float: left;}*/
+#moregoods-con #good-con-header  h6{font-weight: bold;float: left;width: 70px;height: 45px;line-height: 45px;text-align: center;}
+#moregoods-con #good-con-header span{float: left;padding: 0 2px;height: 45px;line-height: 45px;text-align: center;}
+#moregoods-con #good-con-header span a{color: #666;}
+#moregoods-con #good-con-header span a:hover{color: #B61D1D;}
+
+/*放大镜*/
+#moregoods-con #goods-change{width: 1140px;height: 523px;padding: 18px 32px 32px 38px;background: white;}
+
+#moregoods-con #goods-change #box{width: 274px;height: 447px;float: left;position: relative;}
+#moregoods-con #goods-change #box img{display: block;float: left;margin-bottom: 20px;}
+#moregoods-con #goods-change #box .curr{border: 1px solid #B61D1D;}
+#moregoods-con #goods-change #box p{float: left;width: 274px;margin-top: 20px;}
+#moregoods-con #goods-change #box #middle-box{width: 274px;height: 327px;position: relative;cursor: move;}
+#moregoods-con #goods-change #box #middle-box #glass{width: 80px;height: 80px;background: black;position: absolute;left: 0;top: 0;opacity: 0.5;display: none;}
+
+#moregoods-con #goods-change #box #big-box{position: absolute;left: 300px;top:0;width: 274px;height: 327px;overflow: hidden;display: none;}
+#moregoods-con #goods-change #box #big-box img{width: 548px;height: 654px;position: relative;}
+#moregoods-con #goods-change #box #small-box ul{width: 274px;height: 52px;overflow: hidden;}
+#moregoods-con #goods-change #box #small-box ul li img{margin: 0;}
+#moregoods-con #goods-change #box #small-box ul li{float: left;}
+
+
+/*商品信息*/
+#moregoods-con #goodsInfo{width: 600px;height: 530px;float: left;margin-left: 50px;}
+#moregoods-con #goodsInfo .goods-bt{font-size: 16px;width: 478px;margin-bottom: 10px;float: left;color: #000;line-height: normal;}
+#moregoods-con #goodsInfo #goods-compare{width: 60px ;height: 24px;line-height: 24px;text-align: center;background: #f5f5f5;float: right;}
+#moregoods-con #goodsInfo p a{text-decoration: underline;color: #005ea7;}
+#moregoods-con #goodsInfo #reduce-price{width: 600px;height: 50px;line-height: 50px;background: #F7F7F7;float: left;}
+#moregoods-con #goodsInfo #reduce-price #comment{width: 122px;height: 50px;float: right;}
+#moregoods-con #goodsInfo #reduce-price #comment dl{width: 110px;height: 50px;text-align: center;}
+#moregoods-con #goodsInfo #reduce-price #comment dl dt{width: 60px;height: 16px;float: left;}
+#moregoods-con #goodsInfo #reduce-price #comment dl dd{width: 50px;height: 16px;float: left;color: #005ea7;}
+#moregoods-con #goodsInfo .jd-price{width: 470px;}
+#moregoods-con #goodsInfo p{float: left;width: 600px;color: #666;margin: 0;height: 40px;line-height: 40px;}
+#moregoods-con #goodsInfo .jd-hr{border-bottom: 1px dashed #CCCCCC;}
+
+#moregoods-con #goods-choice{width: 600px;height: 200px;margin-top: 17px;float: left;}
+#moregoods-con #goods-choice span{display: inline-block; border: 1px solid #CCCCCC;height: 30px;line-height: 30px;margin-left: 5px;width: 35px;text-align: center;cursor: pointer;}
+
+#moregoods-con #goods-choice #screen{margin-left: 56px;}
+
+#moregoods-con #goods-choice #add-shop{width: 600px;height: 36px;float: left;margin-top: 25px;}
+#moregoods-con #goods-choice #add-shop #goods-number{width: 51px;height: 36px;text-align: center;line-height: 36px;position: relative;float: left;margin-right: 20px;border: 1px solid #ccc;}
+#moregoods-con #goods-choice #add-shop #goods-number span{width: 17px;height: 18px;line-height: 14px;float: right;display: block;position: absolute;right: -19px;top: -1px;}
+#moregoods-con #goods-choice #add-shop #goods-number #delete{top: 17px;}
+
+#moregoods-con #goods-choice #add-shop button{float: left;margin: 0 10px;height: 36px;line-height: 36px;color: white;background: #e54447;width: 135px;border: 0;}
+#moregoods-con #goods-choice #add-shop #easy-btn{width: 73px;background: #80c25b;}
+
+/*服务样式*/
+#moregoods-con #goods-choice #service-choice .icur{border:2px solid #e4393c}
+
+
+
+
+

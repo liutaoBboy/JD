@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>注册个人用户</title>
+		<link rel="stylesheet" type="text/css" href="../css/redister.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		
+		<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+		
+		<script type="text/javascript" src="../js/Validate/02jquery.validate.min.js" ></script>
+		<script type="text/javascript" src="../js/Validate/03messages_zh.js" ></script>
+		
+		<script type="text/javascript" src="../js/login-redister.js"></script>
+	</head>
+
+	<body>
+
+		<div id="headerout">
+			<div id="all-header">
+				<img class="jd" src="../img/star.jpg" />
+				<ul id="right-ul">
+					<li><a href="login.html">你好,请登录</a> <a href="redister.html">免费注册</a></li>
+					<li>我的订单</li>
+					<li>我的京东 <img src="../img/xiajian.jpg">
+						<ul>
+							<img style="display: block;float: left;margin-right: 20px;" src="../img/myheader.jpg" />
+							<span style="float: left;width: 160px;height: 60px;">
+							欢迎用户，刘滔<br>
+							<a href="">优惠券丨消息</a>
+						</span>
+							<div style="width: 110px;float: left;display: block;text-align: center;">
+								<div><a href="#">待处理订单</a></div>
+								<div><a href="#">咨询回复</a></div>
+								<div><a href="#">降价商品</a></div>
+								<div><a href="#">返修退换货</a></div>
+							</div>
+							<div style="width: 110px;float: left;display: block;text-align: center;">
+								<div><a href="#">待处理订单</a></div>
+								<div><a href="#">咨询回复</a></div>
+								<div><a href="#">降价商品</a></div>
+								<div><a href="#">返修退换货</a></div>
+							</div>
+						</ul>
+					</li>
+					<li>京东会员</li>
+					<li>企业采购</li>
+					<li><span class="bgli">手机京东</span> <img src="../img/xiajian.jpg" />
+						<ul style="background: white url(../img/animate-pic3.jpg) no-repeat center;">
+							<li style="height: 100px;"><img class="img1" src="../img/animate-pic1.jpg" />
+								<p>京东客户端
+									<br>新人专享188元大礼包
+									<br><img src="../img/animate-pic4.jpg" /></p>
+							</li>
+							<li style="height: 100px;"><img class="img1" src="../img/animate-pic2.jpg" />
+								<p>京东客户端
+									<br>新人专享188元大礼包
+									<br><img src="../img/animate-pic4.jpg" /></p>
+							</li>
+						</ul>
+					</li>
+					<li>关注京东 <img src="../img/xiajian.jpg">
+						<dl style="width:84px ;height: 106px;text-align: center;display: none;position: absolute;">
+							<dt><img src="../img/about-JD.jpg"/></dt>
+							<dd>关注京东</dd>
+						</dl>
+					</li>
+					<li>客服服务 <img src="../img/xiajian.jpg">
+						<ul style="width: 170px;height: 160px;position: absolute;display: none;background: white;padding-left: 5px;">
+							<p>客户</p>
+							<p><a href="#">帮助中心 </a> <a href="#"> 售后服务</a></p>
+							<p><a href="#">在线客服 </a> <a href="#"> 意见建议</a></p>
+							<p><a href="#">电话客服 </a> <a href="#"> 客服邮箱</a></p>
+							<hr>
+							<p>商户</p>
+							<p><a href="#">京东商学院 </a> <a href="#"> 商家入驻</a></p>
+
+						</ul>
+					</li>
+					<li class="nobg">网站导航 <img src="../img/xiajian.jpg">
+						<ul style="width: 990px;height: 150px;position: absolute;right:0;background: white;padding: 20px;">
+							<h3>特色主题</h3>
+							<div class="reponse">
+								<li><a href="#">品牌街</a></li>
+								<li><a href="#">京东首发</a></li>
+								<li><a href="#">京东会员</a></li>
+								<li><a href="#">新奇特</a></li>
+								<li><a href="#">奇趣日报</a></li>
+							</div>
+							<div class="reponse">
+								<li><a href="#">好物100</a></li>
+								<li><a href="#">今日团购</a></li>
+								<li><a href="#">秒杀</a></li>
+								<li><a href="#">京东试用</a></li>
+								<li><a href="#">大牌免息</a></li>
+							</div>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="redister-conout">
+			<h1>欢迎注册</h1>
+			<div id="redidster-con">
+				<ul id="position-ul">
+					<li class="curr">个人用户</li>
+					<li>企业用户</li>
+					<li>International Customers</li>
+				</ul>
+				
+				<div id="noredister">
+					<p>我已经注册，现在就 <a href="login.html"> 登录</a></p>
+				</div>
+				<!--个人用户-->
+				<div id="text" class="page pages1" >
+					<form action="" method="post" id="subredisterinfo1" class="subredister">
+						<p>
+							<label for="cname">*用户名:</label>
+							<input id="cname" name="name" minlength="2" type="text" placeholder="必填, 最小俩个字母" required>
+						</p>
+						<p>
+							<label for="password">*请设置密码:</label>
+							<input id="password" name="password" type="password" required minlength="6" placeholder="请输入你的密码">
+						</p>
+						<p>
+							<label for="confirm_password">*请确认密码:</label>
+							<input id="confirm_password" name="confirm_password" type="password" equalTo="#password" required minlength="6" placeholder="请重新输入你的密码">
+						</p>
+						<p>
+							<label for="phone">*验证手机:</label>
+							<input id="phone" type="text" name="text">
+							<label id="phone-error" class="error" for="phone" style="display: none;"></label>
+						</p>
+						<p>
+							<label for="massages">*短信验证码:</label>
+							<input id="massages" type="text" name="text" disabled="disabled">
+						</p>
+						<p>
+							<label for="massages1">*验证码:</label>
+							<input id="massages1" type="text" name="text">
+
+							<span id="myspan">
+								****
+							</span>
+							<span onclick="redisterBtn()">换一下</span>
+						</p>
+					</form>
+				</div>
+
+				<!--企业用户-->
+			<!--	<div id="text" class="page pages2">
+					<form action="" method="post" id="subredisterinfo" class="subredister">
+						<p>
+							<label for="cname2">*企业名:</label>
+							<input id="cname2" name="name2" minlength="6" type="text" placeholder="必填, 最小6个字母" required>
+						</p>
+						<p>
+							<label for="password2">*请设置密码:</label>
+							<input id="password2" name="password2" type="password" required minlength="6" placeholder="请输入你的密码">
+						</p>
+						<p>
+							<label for="confirm_password2">*请确认密码:</label>
+							<input id="confirm_password2" name="confirm_password2" type="password" equalTo="#password2" required minlength="6" placeholder="请重新输入你的密码">
+						</p>
+						<p>
+							<label for="phone2">*验证公司手机:</label>
+							<input id="phone2" type="text" name="text">
+							<label id="phone-error2" class="error" for="phone" style="display: none;"></label>
+						</p>
+						<p>
+							<label for="massages02">*短信验证码:</label>
+							<input id="massages02" type="text" name="text" disabled="disabled">
+						</p>
+						<p>
+							<label for="massages2">*验证码:</label>
+							<input id="massages2" class="massages" type="text" name="text">
+
+							<span id="myspan" class="myspan">
+								cjcs
+							</span>
+							<span onclick="redisterBtn()">换一下</span>
+						</p>
+					</form>
+				</div>
+				-->
+				<!--International Customers-->
+			<!--	<div id="text" class="page pages3">
+					<form action="" method="post" id="subredisterinfo" class="subredister">
+						<p>
+							<label for="cname">*Name:</label>
+							<input id="cname" name="name" minlength="2" type="text" placeholder="must，the minlength is two" required>
+						</p>
+						<p>
+							<label for="password">*password:</label>
+							<input id="password" name="password" type="password" required minlength="6" placeholder="please input your password">
+						</p>
+						<p>
+							<label for="confirm_password">*confirm-password:</label>
+							<input id="confirm_password" name="confirm_password" type="password" equalTo="#password" required minlength="6" placeholder="please input the password again">
+						</p>
+						<p>
+							<label for="phone">*phone number:</label>
+							<input id="phone" type="text" name="text">
+							<label id="phone-error" class="error" for="phone" style="display: none;"></label>
+						</p>
+						<p>
+							<label for="massages">*Messages:</label>
+							<input id="massages" type="text" name="text" disabled="disabled">
+						</p>
+						<p>
+							<label for="massages1">*auth code:</label>
+							<input id="massages1" type="text" name="text">
+
+							<span id="myspan">
+								cjcs
+							</span>
+							<span onclick="redisterBtn()">换一下</span>
+						</p>
+					</form>
+				</div>
+				-->
+				<div id="agree">
+					<input type="checkbox" name="" id="iagree" value="" />我已阅读并同意《京东用户注册协议》</div>
+				<div id="logining">
+					立即注册
+				</div>
+			</div>
+		</div>
+
+		<div id="all-footer">
+			<ul class="about-us">
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">商家入驻</a></li>
+				<li><a href="#">营销中心</a></li>
+				<li><a href="#">手机京东</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">销售联盟</a></li>
+				<li><a href="#">京东社区</a></li>
+				<li><a href="#">京东公益</a></li>
+				<li><a href="#">English Site</a></li>
+				<li class="noborder"><a href="#">Contact Us</a></li>
+			</ul>
+			<p>Copyright&copy;2004-2015 京东JD.com版权所有</p>
+
+		</div>
+	</body>
+	<script type="text/javascript">
+		function redisterBtn() {
+			/*var myspan=document.getElementById("change");*/
+			var a = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+			for (var i = 97; i <= 122; i++) {
+				a.push(String.fromCharCode(i)); //添加a-z字符
+			}
+			for (var i = 65; i <= 90; i++) {
+				a.push(String.fromCharCode(i)); //添加A-Z字符
+			}
+			//document.write(a);
+			var num1 = Math.round((a.length - 1) * Math.random());
+			var num2 = Math.round((a.length - 1) * Math.random());
+			var num3 = Math.round((a.length - 1) * Math.random());
+			var num4 = Math.round((a.length - 1) * Math.random());
+			return myspan.innerHTML = a[num1] + a[num2] + a[num3] + a[num4];
+		}
+	</script>
+
+</html>

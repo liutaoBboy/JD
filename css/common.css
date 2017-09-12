@@ -1,0 +1,223 @@
+/*宽度统一：1280px*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size:12px;
+	font-weight:normal;
+	font-family:"微软雅黑";
+	color:black;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal ;
+}
+ul,li{
+	list-style: none;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*all-header-left-ul*/
+#all-header{
+	width: 1221px;
+	height: 28px;
+	background: #f1f1f1;
+	padding: 0 18px;
+}
+#all-header #left-ul{
+	height: 28px;
+	float: left;
+}
+#all-header #left-ul li {
+	float: left;
+	cursor: pointer;
+	height: 28px;
+	line-height: 28px;
+	
+}
+/*all-header-right-ul*/
+#all-header #right-ul{
+	height: 28px;
+	float: right;
+}
+#all-header #right-ul li{
+	position: relative;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	cursor: pointer;
+	background: url(../img/header-libg.jpg) no-repeat right center;
+}
+#all-header #right-ul li ul{position: absolute;z-index: 999;background:white ;width: 248px;display: none;}
+#all-header #right-ul li ul li{margin:  5px 0;}
+#all-header #right-ul li ul li .img1{display: block;float: left;margin-top: 10px;}
+#all-header #right-ul li ul li p{float: left;}
+
+
+#all-header #right-ul .bgli{background: url(../img/header-phone.jpg) no-repeat left center;padding-left: 15px;}
+#all-header #right-ul .nobg{background: none;}
+#all-header #right-ul li a{
+	color: #c81623;
+	cursor: pointer;
+}
+
+
+/*all-all-top*/
+#all-top{
+	
+height: 100px;
+	width: 1240px;
+	padding: 25px 0 25px 18px;
+}
+#all-top #logoimg{
+	display: block;
+	float: left;
+}
+#all-top #all-searchout{
+	width: 545px;
+	height: 50px;
+	float: left;
+	margin-left: 95px;
+}
+#all-top #all-search{
+	width: 540px;
+	height: 35px;
+	float: left;
+	border: 2px solid #b61d1d;
+
+}
+#all-top #all-search input{
+	border:0;
+	float: left;
+}
+#all-top #txt{
+	width: 450px;
+	height: 35px;
+	padding-left: 7px;
+}
+#all-top #btn{
+	width: 83px;
+	height: 35px;
+	background: #b61d1d;
+	color: white;
+	font-size: 20px;
+}
+#all-top #all-menu li{
+	float: left;
+	padding: 0 5px;
+	cursor: pointer;
+}
+#all-top #all-menu .curr{
+	color: #b61d1d;
+}
+#all-top #shopcar{
+	position: relative;
+	width:110px;
+	height: 35px;
+	border: 1px solid #ccc;
+	float: left;
+	line-height: 35px;
+	padding: 0 10px 0 20px;
+	color: #666666;
+	margin-left: 100px;
+}
+#all-top #shop-num{
+	position: absolute;
+	top:-3px;
+	right: 14px;
+	background: #b61d1d;
+	color: white;
+	font-size: 10px;
+	width: 16px;
+	height: 14px;
+	line-height: normal;
+	text-align: center;
+}
+
+/*all-nav*/
+#all-nav{
+	overflow: hidden;
+	width: 1240px;
+	height: 45px;
+	border-bottom:2px solid #b61d1d;
+	padding-left:18px;
+}
+#all-nav #nav{overflow: hidden;}
+#all-nav #nav li{
+	float: left;
+	padding: 0 20px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+}
+#all-nav #nav #first-li{
+	width: 200px;
+	background: #B61D1D;
+	color: white;
+	padding: 0 0 0 10px;
+}
+#all-nav #nav li:hover{
+	background: indianred;
+}
+/*all-footer*/
+
+#all-footer{
+	width: 1253px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#all-footer .about-us{
+	width: 836px;
+	height: 14px;
+	margin: 25px auto 10px;
+}
+#all-footer .about-us li{
+	float: left;
+	border-right: 1px  solid #666666;
+}
+#all-footer .about-us .noborder{border: none;}
+#all-footer .about-us li a{
+	float: left;
+	display: block;
+	height: 14px;
+	line-height: 14px;
+	padding: 0 12px;
+	color: #666666;
+}
+#all-footer #two-width{width: 900px;}
+#all-footer #three-width{width: 761px;margin: 5px auto;}
+#all-footer #four-width{width: 740px;margin: 5px auto;}
+#all-footer #five-width{width: 252px;margin: 5px auto;}
+
+
+#all-footer-footer{
+	width: 675px;
+	height: 33px;
+	margin: 28px auto 20px;
+}
+#all-footer #all-footer-footer dl{
+	float: left;
+	text-align: center;
+	width: 105px;
+	margin-right: 15px;
+}#all-footer #all-footer-footer dl dt img{
+	display: block;
+	float: left;
+}
+#all-footer #all-footer-footer dd{
+	width: 65px;
+	padding-left:5px ;
+	height: 33px;
+	background: #eee;
+	float: left;
+	color: #666666;
+	text-align: center;
+}
+
+
+

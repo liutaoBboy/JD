@@ -1,0 +1,42 @@
+*{margin: 0;padding: 0;}
+body{font-size:12px;font-weight:normal;font-family:"微软雅黑";color:black;}
+h1,h2,h3,h4,h5,h6{font-weight:normal ;}
+ul,li{list-style: none;cursor: pointer;}
+a{text-decoration: none;cursor: pointer;}
+
+/*头部*/
+.error{color: red;}
+#headerout{width: 100%;height:30px;background: white;}
+#headerout #all-header{width: 990px;height: 30px;margin: 0 auto;background: white;}
+#headerout #all-header .jd{display: block;position: relative;top:5px;float: left;}
+/*内容*/
+#redister-conout{width: 100%;height:670px ;background: #f2f2f2;padding-top:30px ;}
+#redister-conout h1{display: block;width: 200px;margin-left: 330px;font-size: 25px;}
+
+#noredister{position: absolute;right: 0;width: 170px;height: 30px;line-height:30px;top: -26px; color: #666666;}
+#noredister a{color: red;}
+
+#redidster-con{position:relative;width: 890px;height: 567px;background: white;margin: 30px auto 0;padding: 40px 0 0 100px;}
+#redidster-con #position-ul{position: absolute;left: 276px;top: -31px;}
+#redidster-con #position-ul li{float: left;height: 30px;line-height: 30px;background: #f7f7f7;padding: 0 10px;margin-right: 5px;border: 1px solid #CCCCCC;}
+#redidster-con #position-ul .curr{height: 31px;background: white;border-bottom: none;}
+/*注册信息*/
+#text .subredister p{width: 600px;height: 50px;padding-top: 10px;}
+#text .subredister p label{width: 130px;height:35px;line-height:40px;text-align: right;float: left;}
+#text .subredister p input{width: 260px;height: 35px;float: left;padding-left: 10px;margin-left: 10px;}
+#text .subredister p #massages1{width: 100px;}
+#text .subredister p #myspan{width: 60px;height: 35px;float: left;margin:0 0 0 15px;font-size: 20px;line-height: 35px;text-align: center;background: none;}
+#text .subredister p span{float: left;margin: 10px 0 0 15px;border: 1px solid #ccc;background: #B0B4B5;}
+.pages2,.pages3{display: none;}
+
+#agree{margin:20px 0 0 115px ;}
+#logining{width: 304px;height:40px;line-height: 40px;background:#ccc;color: white;font-size: 20px;text-align: center;margin: 20px 0 0 115px;}
+
+
+/*底部*/
+#all-footer{background: #f2f2f2;padding: 20px 0;}
+#all-footer .about-us{width: 836px;height: 14px;margin: 25px auto 10px;}
+#all-footer  li{float: left;border-right: 1px  solid #666666;}
+#all-footer .about-us .noborder{border: none;}
+#all-footer .about-us li a{float: left;display: block;height: 14px;line-height:14px;padding: 0 12px;color: #666666;}
+#all-footer p{text-align: center;}

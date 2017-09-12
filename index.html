@@ -1,0 +1,1583 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>JD首页</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/my.js"></script>
+		<script type="text/javascript" src="js/move.js"></script>
+		<script type="text/javascript" src="js/changeUser.js"></script>
+	</head>
+
+	<body>
+		<!--右边竖线-->
+		<span id="right-bg"></span>
+
+		<!--左侧楼梯-->
+		<ul id="index-nav-left">
+			<li>1F<span style="display:block;">服饰</span></li>
+			<li>2F<span>美妆</span></li>
+			<li>3F<span>手机</span></li>
+			<li>4F<span>家电</span></li>
+			<li>5F<span>数码</span></li>
+			<li>6F<span>运动</span></li>
+			<li>7F<span>居家</span></li>
+			<li>8F<span>母婴</span></li>
+			<li>9F<span>食品</span></li>
+			<li>10F<span>图书</span></li>
+			<li>11F<span>服务</span></li>
+			<li>TOP</li>
+		</ul>
+
+		<!--右侧楼梯-->
+		<ul id="index-nav-right">
+			<li><a href="html/login.html"><span>京东会员</span><img src="img/index-right-pic1.jpg"/></a></li>
+			<li><a href="#"><span>购物车</span><img src="img/index-right-pic2.jpg"/></a></li>
+			<li><a href="#"><span>我的关注</span><img src="img/index-right-pic3.jpg"/></a></li>
+			<li><a href="#"><span>我的足迹</span><img src="img/index-right-pic4.jpg"/></a></li>
+			<li><a href="#"><span>我的消息</span><img src="img/index-right-pic5.jpg"/></a></li>
+			<li><a href="#"><span>咨询JIMI</span><img src="img/index-right-pic6.jpg"/></a></li>
+		</ul>
+
+		<!--header-->
+		<div id="all-header">
+
+			<ul id="left-ul">
+				<li>送至：<span>北京</span> <img src="img/xiajian.jpg">
+					<ul id="index-adress">
+
+					</ul>
+
+				</li>
+			</ul>
+
+			<ul id="right-ul">
+				<li id="user-name"><a href="html/login.html">你好,请登录</a> <a href="html/redister.html">免费注册</a></li>
+				<li>我的订单</li>
+				<li>我的京东 <img src="img/xiajian.jpg">
+					<ul>
+						<img style="display: block;float: left;margin-right: 20px;" src="img/myheader.jpg" />
+						<span style="float: left;width: 160px;height: 60px;">
+							欢迎用户，刘滔<br>
+							<a href="">优惠券丨消息</a>
+						</span>
+						<div style="width: 110px;float: left;display: block;text-align: center;">
+							<div><a href="#">待处理订单</a></div>
+							<div><a href="#">咨询回复</a></div>
+							<div><a href="#">降价商品</a></div>
+							<div><a href="#">返修退换货</a></div>
+						</div>
+						<div style="width: 110px;float: left;display: block;text-align: center;">
+							<div><a href="#">待处理订单</a></div>
+							<div><a href="#">咨询回复</a></div>
+							<div><a href="#">降价商品</a></div>
+							<div><a href="#">返修退换货</a></div>
+						</div>
+					</ul>
+				</li>
+				<li>京东会员</li>
+				<li>企业采购</li>
+				<li><span class="bgli">手机京东</span> <img src="img/xiajian.jpg" />
+					<ul style="background: white url(img/animate-pic3.jpg) no-repeat center;">
+						<li style="height: 100px;"><img class="img1" src="img/animate-pic1.jpg" />
+							<p>京东客户端
+								<br>新人专享188元大礼包
+								<br><img src="img/animate-pic4.jpg" /></p>
+						</li>
+						<li style="height: 100px;"><img class="img1" src="img/animate-pic2.jpg" />
+							<p>京东客户端
+								<br>新人专享188元大礼包
+								<br><img src="img/animate-pic4.jpg" /></p>
+						</li>
+					</ul>
+				</li>
+				<li>关注京东 <img src="img/xiajian.jpg">
+					<dl style="width:84px ;height: 106px;text-align: center;display: none;position: absolute;">
+						<dt><img src="img/about-JD.jpg"/></dt>
+						<dd>关注京东</dd>
+					</dl>
+				</li>
+				<li>客服服务 <img src="img/xiajian.jpg">
+					<ul style="width: 170px;height: 160px;position: absolute;display: none;background: white;padding-left: 5px;">
+						<p>客户</p>
+						<p><a href="#">帮助中心 </a> <a href="#"> 售后服务</a></p>
+						<p><a href="#">在线客服 </a> <a href="#"> 意见建议</a></p>
+						<p><a href="#">电话客服 </a> <a href="#"> 客服邮箱</a></p>
+						<hr>
+						<p>商户</p>
+						<p><a href="#">京东商学院 </a> <a href="#"> 商家入驻</a></p>
+
+					</ul>
+				</li>
+				<li class="nobg">网站导航 <img src="img/xiajian.jpg">
+					<ul style="width: 1150px;height: 150px;position: absolute;right:0;background: white;padding: 20px;">
+						<h3>特色主题</h3>
+						<div class="reponse">
+							<li><a href="#">品牌街</a></li>
+							<li><a href="#">京东首发</a></li>
+							<li><a href="#">京东会员</a></li>
+							<li><a href="#">新奇特</a></li>
+							<li><a href="#">奇趣日报</a></li>
+						</div>
+						<div class="reponse">
+							<li><a href="#">好物100</a></li>
+							<li><a href="#">今日团购</a></li>
+							<li><a href="#">秒杀</a></li>
+							<li><a href="#">京东试用</a></li>
+							<li><a href="#">大牌免息</a></li>
+						</div>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+
+		<!--top-->
+		<div id="all-top">
+			<img id="logoimg" src="img/index-logo.jpg" alt="" />
+
+			<div id="all-searchout">
+				<div id="all-search">
+					<input type="text" name="txt" id="txt" value="" />
+					<input type="button" id="btn" value="搜索" />
+					<div id="cross-domain">
+						<!--由于jd不允许跨域所以我找的xxx网站的-->
+						<ul>
+						</ul>
+					</div>
+				</div>
+				<ul id="all-menu">
+					<li class="curr">领卷满减</li>
+					<li>中秋企彩</li>
+					<li>一元秒杀</li>
+					<li>闸蟹满减</li>
+					<li>低至3元</li>
+					<li>麦片</li>
+					<li>电热锅</li>
+					<li>牙膏</li>
+					<li>长袖衬衫女</li>
+				</ul>
+
+			</div>
+			<div id="shopcar">
+				<a href="myshopcar.html" style="width:120px;height: 37px;display: block;color: #666;">
+					<img src="img/shopcar.jpg" />&nbsp; 我的的购物车 >
+					<span id="shop-num">
+						0
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<!--top-nav-->
+		<div id="all-nav">
+			<ul id="nav">
+				<li id="first-li">全部商品分类</li>
+				<li>服装城</li>
+				<li>美食</li>
+				<li>全球购</li>
+				<li>服装城</li>
+				<li>闪购</li>
+				<li>团购</li>
+				<li>拍卖</li>
+				<li>金融</li>
+				<li>智能</li>
+			</ul>
+		</div>
+
+		<!--index content-->
+
+		<!--index-banner-->
+		<div id="index-banner">
+			<div id="banner-left">
+				<ul>
+					<li class="ulli">家用电器
+						<div id="index-list">
+							<div id="list-nav">
+								<ul>
+									<li><a href="#">家电城<span>></span></a></li>
+									<li><a href="#">品牌日<span>></span></a></li>
+									<li><a href="#">智能生活馆<span>></span></a></li>
+									<li><a href="#">京东精华管<span>></span></a></li>
+									<li><a href="#">京东帮服务店<span>></span></a></li>
+									<li><a href="#">家电众筹馆<span>></span></a></li>
+								</ul>
+								<p>电视> <a href="#"> 丨 合资品牌</a> <a href="#"> 丨 国产品牌</a> <a href="#"> 丨 互联网品牌</a></p>
+								<p>空调> <a href="#"> 丨 壁挂式空调</a> <a href="#"> 丨 柜式空调</a> <a href="#"> 丨 中央空调</a> <a href="#"> 丨 空调配件</a></p>
+								<p>洗衣机> <a href="#"> 丨 滚筒洗衣机</a> <a href="#"> 丨 洗烘一体洗衣机</a> <a href="#"> 丨 波轮洗衣机</a> <a href="#"> 丨 迷你洗衣机</a> <a href="#"> 丨 洗衣机配件</a></p>
+								<p>冰箱> <a href="#"> 丨 多门</a> <a href="#"> 丨 对开门</a> <a href="#"> 丨 三门</a> <a href="#"> 丨 双门</a> <a href="#"> 丨 冷柜/冰吧</a> <a href="#"> 丨 酒柜</a> <a href="#"> 丨 冰箱配件</a></p>
+								<p>厨卫大电> <a href="#"> 丨 油烟机</a> <a href="#"> 丨 燃气灶</a> <a href="#"> 丨 烟灶套装</a> <a href="#"> 丨 消毒柜</a> <a href="#"> 丨 洗碗机</a> <a href="#"> 丨 电热水器</a> <a href="#"> 丨 燃气热水器</a> <a href="#"> 丨嵌入式厨电</a></p>
+								<p>厨房小电> <a href="#"> 丨 电饭煲</a> <a href="#"> 丨 微波炉</a> <a href="#"> 丨 电烤箱</a> <a href="#"> 丨 电磁炉</a> <a href="#"> 丨 电压力锅</a> <a href="#"> 丨 豆浆机</a> <a href="#"> 丨 咖啡机</a> <a href="#"> 丨 面包机</a> <a href="#"> 丨 榨汁机</a> <a href="#"> 丨 料理机</a> <a href="#"> 丨 电饼铛</a>
+									<br><a href="#"> 丨 养生壶/煎药壶</a> <a href="#"> 丨 酸奶机</a></p>
+								<p>生活电器> <a href="#"> 丨 电风扇</a> <a href="#"> 丨 冷风扇</a> <a href="#"> 丨 吸尘器</a> <a href="#"> 丨 扫地机器人</a> <a href="#"> 丨 加湿器</a> <a href="#"> 丨 熨斗</a> <a href="#"> 丨 其他他生活电器</a></p>
+								<p>个护健康> <a href="#"> 丨 剃须刀</a> <a href="#"> 丨 口腔护理</a> <a href="#"> 丨 电吹风</a> <a href="#"> 丨 美容器</a> <a href="#"> 丨 理发器</a> <a href="#"> 丨 足浴盆</a> <a href="#"> 丨 其他健康电器</a></p>
+							</div>
+
+						</div>
+					</li>
+					<li class="ulli">手机、数码、京东通信
+						<div id="index-list">
+							<div id="list-nav">
+								<ul>
+									<li><a href="#">玩3C<span>></span></a></li>
+									<li><a href="#">手机频道<span>></span></a></li>
+									<li><a href="#">网上营业厅<span>></span></a></li>
+									<li><a href="#">配件城<span>></span></a></li>
+									<li><a href="#">影像Club<span>></span></a></li>
+									<li><a href="#">以旧换新<span>></span></a></li>
+								</ul>
+								<p>手机通讯> <a href="moregoods.html"> 丨 手机</a> <a href="#"> 丨 对讲机</a> <a href="#"> 丨 以旧换新</a>
+									<a href="#">丨 手机维修</a></p>
+
+								<p>京东通信> <a href="#"> 丨 选号中心</a> <a href="#"> 丨 自助服务</a></p>
+
+								<p>运营商> <a href="#"> 丨 合约机</a> <a href="#"> 丨 办套餐</a> <a href="#"> 丨 选号码</a> <a href="#"> 丨 装宽带</a> <a href="#"> 丨 中国移动</a> <a href="#"> 丨 中国电信</a><a href="#"> 丨 中国联通</a></p>
+
+								<p>手机配件> <a href="#"> 丨 手机壳</a> <a href="#"> 丨 贴膜</a> <a href="#"> 丨 手机存储卡</a> <a href="#"> 丨 数据线</a> <a href="#"> 丨 充电器</a> <a href="#"> 丨 手机耳机</a> <a href="#"> 丨 创意配件</a> <a href="#"> 丨 手机饰品</a> <a href="#"> 丨 手机电池</a></p>
+
+								<p>摄像摄影> <a href="#"> 丨 数码相机</a> <a href="#"> 丨 单电/微单相机</a> <a href="#"> 丨 单反相机</a> <a href="#"> 丨 拍立得</a> <a href="#"> 丨 运动相机</a> <a href="#"> 丨 摄像机</a> <a href="#"> 丨 镜头</a> <a href="#"> 户外器材</a></p>
+
+								<p>数码配件> <a href="#"> 丨 存储卡</a> <a href="#"> 丨 三脚架/云台</a> <a href="#"> 丨 相机包</a> <a href="#"> 丨 滤镜</a> <a href="#"> 丨 闪光灯</a> <a href="#"> 丨 相机清洁/贴膜</a> <a href="#"> 丨 机身附件</a> <a href="#"> 丨 镜头附件</a> <a href="#"> 丨 读卡器</a> <a href="#"> 丨 支架</a>									<a href="#"> 丨 电池充电器</a></p>
+
+								<p>影音娱乐> <a href="#"> 丨 耳机/耳麦</a> <a href="#"> 丨 智能手表</a> <a href="#"> 丨 智能眼镜</a> <a href="#"> 丨 运动跟踪器</a> <a href="#"> 丨 健康监测</a> <a href="#"> 丨 智能配饰</a> <a href="#"> 丨 智能家居</a></p>
+
+								<p>电子教育> <a href="#"> 丨 学生平板</a> <a href="#"> 丨 点读机/笔</a> <a href="#"> 丨 早教益智</a> <a href="#"> 丨 录音笔</a> <a href="#"> 丨 电子书</a> <a href="#"> 丨 电子词典</a> <a href="#"> 丨 复读机</a></p>
+							</div>
+
+						</div>
+					</li>
+					<li class="ulli">电脑、办公
+						<div id="index-list">
+							好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写
+						</div>
+					</li>
+					<li class="ulli">家居、家具、家装、厨具
+						<div id="index-list">
+							好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写
+						</div>
+					</li>
+					<li class="ulli">男装、女装、内衣、珠宝
+						<div id="index-list">
+							好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写
+						</div>
+					</li>
+					<li class="ulli">个护化妆
+						<div id="index-list">
+							好多不想写
+						</div>
+					</li>
+					<li class="ulli">鞋靴、箱包、钟表、奢侈品
+						<div id="index-list">
+							好多不想写
+						</div>
+					</li>
+					<li class="ulli">运动户外
+						<div id="index-list">
+							好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想不想写好多不想写好多不想写好多不想写好多不想写好多不想写
+						</div>
+					</li>
+					<li class="ulli">汽车、汽车用品
+						<div id="index-list">
+							好多不想写
+						</div>
+					</li>
+					<li class="ulli">母婴、玩具乐器
+						<div id="index-list">
+							好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写
+						</div>
+					</li>
+					<li class="ulli">食品、酒类、生鲜、特产
+						<div id="index-list">
+							好多不想写
+						</div>
+					</li>
+					<li class="ulli">营养保健
+						<div id="index-list">
+							好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写
+						</div>
+					</li>
+					<li class="ulli">图书、音像、电子书
+						<div id="index-list">
+							好多不想写
+						</div>
+					</li>
+					<li class="ulli">彩票、旅行、充值、票务
+						<div id="index-list">
+							好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写好多不想写
+						</div>
+					</li>
+					<li class="ulli">理财/众筹、白条、保险
+						<div id="index-list">
+							好多不想写
+						</div>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="banner-middle">
+				<ul id="imgbox0">
+					<li>
+						<a href="#"><img src="img/jd-1.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/jd-2.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/jd-3.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/jd-4.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/jd-5.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/jd-6.jpg" /></a>
+					</li>
+				</ul>
+				<div id="pages0"></div>
+				<div id="prev"><img src="img/prev.jpg" /></div>
+				<div id="next"><img src="img/next.jpg" /></div>
+			</div>
+
+			<div id="banner-right">
+				<p>京东快报<span>更多 ></span></p>
+				<ul>
+					<li>[特惠] 1000元优惠卷免费领！</li>
+					<li>[公告] 仁怀政府开启“仁怀酱香酒馆”！</li>
+					<li>[特惠] 爱奇艺VIP身份免费领！</li>
+					<li>[公告] 新一代Moto 360智能手表登录！</li>
+					<li>[特惠] 屯滋润送清爽 满199减100！</li>
+				</ul>
+				<p>生活服务</p>
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/banner-right1.jpg"/></dt>
+					<dd>话费</dd>
+				</dl>
+
+			</div>
+		</div>
+		<!--index-今日推荐-->
+		<div id="index-recommmend">
+			<div id="recommend">
+				<dl>
+					<dt><img src="img/clock.jpg"/></dt>
+					<dd>今日推荐</dd>
+				</dl>
+			</div>
+			<div id="recommend-pic">
+				<ul id="imgbox1">
+					<!--无缝滚动轮播-->
+					<li><img src="img/recommen-pic1.jpg" /></li>
+					<li><img src="img/recommen-pic2.jpg" /></li>
+					<li><img src="img/recommen-pic3.jpg" /></li>
+					<li><img src="img/recommen-pic4.jpg" /></li>
+					<li><img src="img/recommen-pic5.jpg" /></li>
+				</ul>
+				<!--	<div id="prev"><img src="img/prev.jpg"></div>
+				<div id="next"><img src="img/next.jpg"></div>-->
+			</div>
+		</div>
+
+		<!--index-floor-->
+		<p id="floor-bt1">京东特色购</p>
+		<!--0楼-->
+		<div id="index-zero-floor">
+			<img src="img/zero-pic1.jpg" />
+			<img src="img/zero-pic2.jpg" />
+			<img src="img/zero-pic3.jpg" />
+			<img src="img/zero-pic3.jpg" />
+			<img src="img/zero-pic3.jpg" />
+			<img src="img/zero-pic7.jpg" />
+			<img src="img/zero-pic8.jpg" />
+			<div id="famous-brand">
+
+			</div>
+			<img src="img/zero-pic8.jpg" />
+		</div>
+
+		<!--1楼-->
+		<div id="floorbt">
+			<p id="floor-bt">服装鞋包</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor1-pic" class="floor floor1">
+			<div id="position-text">
+				<img src="img/floor1-pic1.jpg" />
+				<div id="text">
+					<dl>
+						<dt><img src="img/text-img1.jpg"/></dt>
+						<dd>男装</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text-img1.jpg"/></dt>
+						<dd>男装</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text-img1.jpg"/></dt>
+						<dd>男装</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text-img1.jpg"/></dt>
+						<dd>男装</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text-img1.jpg"/></dt>
+						<dd>男装</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text-img1.jpg"/></dt>
+						<dd>男装</dd>
+					</dl>
+				</div>
+				<div id="floor1-link">
+
+				</div>
+			</div>
+			
+			<div id="floor-imgbox1" style="float: left;width: 877px;height: 474px;">
+				<img src="img/floor1-pic2.jpg" />
+				<img src="img/floor1-pic4.jpg" />
+				<img src="img/floor1-pic4.jpg" />
+				<img src="img/floor1-pic3.jpg" />
+				<img src="img/floor1-pic4.jpg" />
+				<img src="img/floor1-pic4.jpg" />
+				<img src="img/floor1-pic4.jpg" />
+			</div>
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--2楼-->
+		<div id="floorbt">
+			<p id="floor-bt">个护化妆</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor2">
+			<div id="position-text">
+				<img src="img/floor2-pic1.jpg" />
+				<div id="text">
+					<dl>
+						<dt><img src="img/text2-img1.jpg"/></dt>
+						<dd>美妆</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text2-img1.jpg"/></dt>
+						<dd>个护</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text2-img1.jpg"/></dt>
+						<dd>商城</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text2-img1.jpg"/></dt>
+						<dd>试用</dd>
+					</dl>
+				</div>
+
+				<div id="text2">
+					<ul>
+						<li>蓝月亮 199减100></li>
+						<li>洗护节 满199减100></li>
+					</ul>
+					<a href="#">
+					国际馆 国妆馆 全球购馆
+				</a>
+					<a>
+					洗护馆 纸品馆 清洁馆
+				</a>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor2-con">
+				<dl>
+					<dt><img src="img/floor2-pic2.jpg"/></dt>
+					<dd>
+						卫新 薰衣草洗衣液4.26kg
+						<span>￥53.00</span>
+					</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/floor2-pic2.jpg"/></dt>
+					<dd>
+						卫新 薰衣草洗衣液4.26kg
+						<span>￥53.00</span>
+					</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/floor2-pic2.jpg"/></dt>
+					<dd>
+						卫新 薰衣草洗衣液4.26kg
+						<span>￥53.00</span>
+					</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/floor2-pic2.jpg"/></dt>
+					<dd>
+						卫新 薰衣草洗衣液4.26kg
+						<span>￥53.00</span>
+					</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/floor2-pic2.jpg"/></dt>
+					<dd>
+						卫新 薰衣草洗衣液4.26kg
+						<span>￥53.00</span>
+					</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/floor2-pic2.jpg"/></dt>
+					<dd>
+						卫新 薰衣草洗衣液4.26kg
+						<span>￥53.00</span>
+					</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/floor2-pic2.jpg"/></dt>
+					<dd>
+						卫新 薰衣草洗衣液4.26kg
+						<span>￥53.00</span>
+					</dd>
+				</dl>
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--3楼-->
+		<div id="floorbt">
+			<p id="floor-bt">手机通讯</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor3">
+			<div id="position-text">
+				<a href="moregoods.html"><img src="img/floor3-pic1.jpg" /></a>
+				<div id="text" style="width: 330px;height: 30px;padding: 5px 38px;">
+					<dl>
+						<dt><img src="img/text2-img1.jpg"/></dt>
+						<dd>手机</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text2-img1.jpg"/></dt>
+						<dd>营业</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/text2-img1.jpg"/></dt>
+						<dd>配件</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2">
+					<dl>
+						<dt>
+						手机社区等你参与><br><br>
+						9月收货总攻略>
+					</dt>
+						<dd>
+							手机通讯 &nbsp; 以旧换新 手机管家 &nbsp; 系统流畅 照相不错 &nbsp; 老人手机 高清频 &nbsp; 外观时尚
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+						逛京东赚千元话费><br><br>
+						移动电源品质联盟>
+					</dt>
+						<dd>
+							沃派首发 &nbsp; 京东通信 4G 套餐 &nbsp; 江苏电信 品质联盟 &nbsp; 蓝牙耳机 移动电源 &nbsp; 对讲机
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<div id="floor3-lunbo">
+					<ul id="imgbox3">
+						<li><img src="img/floor4-lun-pic1.jpg" /></li>
+						<li><img src="img/floor4-pic3.jpg" /></li>
+						<li><img src="img/floor4-pic2.jpg" /></li>
+					</ul>
+					<div id="pages3"></div>
+					<div id="prev"><img src="img/prev.jpg" /></div>
+					<div id="next"><img src="img/next.jpg" /></div>
+				</div>
+
+				<img src="img/floor3-pic3.jpg" / style="height: 118px" ;>
+				<img src="img/floor3-pic4.jpg" / style="height: 118px" ;>
+				<img src="img/floor3-pic5.jpg" / style="height: 119px" ;>
+				<img src="img/floor3-pic6.jpg" / style="height: 119px" ;>
+				<img src="img/floor3-pic7.jpg" />
+				<img src="img/floor3-pic8.jpg" />
+				<img src="img/floor3-pic9.jpg" />
+				<img src="img/floor3-pic10.jpg" />
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--4楼-->
+		<div id="floorbt">
+			<p id="floor-bt">家用电器</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor4">
+			<div id="position-text">
+				<img src="img/floor4-pic1.jpg" />
+				<div id="text" style="width: 330px;height: 30px;padding: 5px 38px;">
+					<dl>
+						<dt><img src="img/floor4-pic1-pic1.jpg"/></dt>
+						<dd>手机</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/floor4-pic1-pic1.jpg"/></dt>
+						<dd>营业</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/floor4-pic1-pic1.jpg"/></dt>
+						<dd>配件</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2">
+					<dl>
+						<dt>
+						大家电配送说明><br><br>
+						家电券满减特惠>
+					</dt>
+						<dd>
+							电热水器 &nbsp; 烟灶套装 圆柱空调 &nbsp; 曲面电视 4K电视 &nbsp; 滚筒洗衣机 冷冰箱 &nbsp; 空气净化器
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+						京东帮 等你来逛><br><br>
+						长虹微信点播电视>
+					</dt>
+						<dd>
+							LED 灯 &nbsp; 扫地机器人 原汁机&nbsp; IH电饭煲 声波牙刷 &nbsp;三刀头须刀 纯水净水器 &nbsp; 冷风扇
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<div id="floor4-lunbo">
+					<ul id="imgbox4">
+						<li><img src="img/floor4-lun-pic1.jpg" /></li>
+						<li><img src="img/floor4-pic3.jpg" /></li>
+						<li><img src="img/floor4-pic2.jpg" /></li>
+					</ul>
+					<div id="pages4"></div>
+					<div id="prev"><img src="img/prev.jpg" /></div>
+					<div id="next"><img src="img/next.jpg" /></div>
+				</div>
+				<img src="img/floor4-pic3.jpg" />
+				<img src="img/floor4-pic4.jpg" />
+				<img src="img/floor4-pic5.jpg" />
+				<img src="img/floor4-pic6.jpg" />
+				<img src="img/floor4-pic7.jpg" />
+				<img src="img/floor4-pic8.jpg" />
+				<img src="img/floor4-pic9.jpg" />
+				<img src="img/floor4-pic10.jpg" />
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--5楼-->
+		<div id="floorbt">
+			<p id="floor-bt">电脑数码</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor5">
+			<div id="position-text">
+				<img src="img/floor5-pic1.jpg" />
+				<div id="text" style="width: 330px;height: 30px;padding: 5px 38px;">
+					<dl style="width: 100px;">
+						<dt><img src="img/floor5-pic1-pic.jpg"/></dt>
+						<dd style="width: 55px;">新品抢先</dd>
+					</dl>
+					<dl style="width: 100px;">
+						<dt><img src="img/floor5-pic1-pic.jpg"/></dt>
+						<dd style="width: 40px;">品牌馆</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2">
+					<dl>
+						<dt>
+						主流A卡N卡对决><br><br>
+						朋友圈赞赢购物卡>
+					</dt>
+						<dd>
+							玩游戏本 &nbsp; 平板电脑 充电宝 &nbsp;&nbsp; 以旧换新 霸道好货 &nbsp; 早教益智 单反相机 &nbsp; 单电/微单
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+						森海塞尔PX100<br><br>
+						雨天拍摄攻略>
+					</dt>
+						<dd>
+							台式电脑 &nbsp;&nbsp; 显示器 组装机 &nbsp;&nbsp; 机械键盘 学生文具 &nbsp;办公设备 智能路由 &nbsp; 健康监测
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<img src="img/floor5-pic2.jpg" />
+				<img src="img/floor5-pic3.jpg" />
+				<img src="img/floor5-pic4.jpg" />
+				<img src="img/floor5-pic5.jpg" />
+				<img src="img/floor5-pic6.jpg" />
+				<img src="img/floor5-pic7.jpg" />
+				<img src="img/floor5-pic8.jpg" />
+				<img src="img/floor5-pic9.jpg" />
+				<img src="img/floor5-pic10.jpg" />
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--6楼-->
+		<div id="floorbt">
+			<p id="floor-bt">运动健身</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor6">
+			<div id="position-text">
+				<img src="img/floor6-pic1.jpg" />
+				<div id="text" style="width: 210px;height: 80px;padding: 10px 0px;">
+					<dl style="width: 87px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">新品抢先</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">品牌馆</dd>
+					</dl>
+					<dl style="width: 87px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">新品抢先</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">品牌馆</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2" style="width: 200px;bottom: 10px;">
+					<dl>
+						<dt>
+						运动足球季><br><br>
+						清新泳装特辑>
+					</dt>
+						<dd style="width: 150px;">
+							户外馆 &nbsp; 折叠车 &nbsp; 跑步鞋 智能穿戴&nbsp;羽毛球拍&nbsp;篮球馆
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<img src="img/floor6-pic2.jpg" />
+				<img src="img/floor6-pic3.jpg" />
+				<img src="img/floor6-pic4.jpg" />
+				<img src="img/floor6-pic5.jpg" />
+				<img src="img/floor6-pic6.jpg" />
+				<img src="img/floor6-pic7.jpg" />
+				<img src="img/floor6-pic8.jpg" />
+				<img src="img/floor6-pic9.jpg" />
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--7楼-->
+		<div id="floorbt">
+			<p id="floor-bt">居家生活</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor7">
+			<div id="position-text">
+				<img src="img/floor7-pic1.jpg" />
+				<div id="text" style="width: 210px;height: 80px;padding: 10px 0px;">
+					<dl style="width: 87px;">
+						<dt><img src="img/floor7-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">家装城</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor7-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">生活馆</dd>
+					</dl>
+					<dl style="width: 87px;">
+						<dt><img src="img/floor7-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">定制家</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor7-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">家具</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2" style="width: 200px;bottom: 10px;">
+					<dl>
+						<dt>
+						运动足球季><br><br>
+						清新泳装特辑>
+					</dt>
+						<dd style="width: 150px;">
+							户外馆 &nbsp; 折叠车 &nbsp; 跑步鞋 智能穿戴&nbsp;羽毛球拍&nbsp;篮球馆
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<img src="img/floor7-pic2.jpg" />
+				<img src="img/floor7-pic3.jpg" />
+				<img src="img/floor7-pic4.jpg" />
+				<img src="img/floor7-pic2.jpg" />
+				<img src="img/floor7-pic3.jpg" />
+				<img src="img/floor7-pic4.jpg" />
+				<img src="img/floor7-pic2.jpg" />
+				<img src="img/floor7-pic3.jpg" />
+				<img src="img/floor7-pic4.jpg" />
+				<img src="img/floor7-pic2.jpg" />
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--8楼-->
+		<div id="floorbt">
+			<p id="floor-bt">母婴玩具</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor8">
+			<div id="position-text">
+				<img src="img/floor8-pic1.jpg" />
+				<div id="text" style="width: 210px;height: 80px;padding: 10px 0px;">
+					<dl style="width: 87px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">母婴用品</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">尿不湿</dd>
+					</dl>
+					<dl style="width: 87px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">奶粉辅食</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor6-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">童装</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2" style="width: 200px;bottom: 10px;">
+					<dl>
+						<dt>
+						99元抢安全椅 ><br><br>
+						全球购低至一元>
+					</dt>
+						<dd style="width: 150px;">
+							防溢乳垫 &nbsp; 尿裤会场 &nbsp;玩具 孕妇装&nbsp;孕妇护肤&nbsp;安全座椅
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<img src="img/floor8-pic2.jpg" />
+				<img src="img/floor8-pic3.jpg" />
+				<img src="img/floor8-pic4.jpg" />
+				<img src="img/floor8-pic5.jpg" />
+				<img src="img/floor8-pic6.jpg" />
+				<img src="img/floor8-pic7.jpg" />
+				<img src="img/floor8-pic8.jpg" />
+				<img src="img/floor8-pic9.jpg" />
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--9楼-->
+		<div id="floorbt">
+			<p id="floor-bt">食品保健</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor9">
+			<div id="position-text">
+				<img src="img/floor9-pic1.jpg" />
+				<div id="text" style="width: 210px;height: 80px;padding: 10px 0px;">
+					<dl style="width: 87px;">
+						<dt><img src="img/floor9-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">中外美食</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor9-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">美味</dd>
+					</dl>
+					<dl style="width: 87px;">
+						<dt><img src="img/floor9-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">中外名酒</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor9-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">保健</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2" style="width: 200px;bottom: 10px;">
+					<dl>
+						<dt>
+						z中秋月饼礼 ><br><br>
+						中秋聚惠买一赠一>
+					</dt>
+						<dd style="width: 150px;">
+							米面到家 &nbsp;蜂蜜/奶粉 &nbsp;哈药 月饼礼盒&nbsp;养生堂&nbsp;白酒节
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<img src="img/floor9-pic2.jpg" />
+				<img src="img/floor9-pic3.jpg" />
+				<img src="img/floor9-pic4.jpg" />
+				<img src="img/floor9-pic5.jpg" />
+				<img src="img/floor9-pic8.jpg" />
+				<img src="img/floor9-pic9.jpg" />
+
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--10楼-->
+		<div id="floorbt">
+			<p id="floor-bt">图书音像</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+		<div id="floor2-pic" class="floor floor10">
+			<div id="position-text">
+				<img src="img/floor10-pic1.jpg" />
+				<div id="text" style="width: 210px;height: 80px;padding: 10px 0px;">
+					<dl style="width: 87px;">
+						<dt><img src="img/floor10-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">特色书店</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor10-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">图书</dd>
+					</dl>
+					<dl style="width: 87px;">
+						<dt><img src="img/floor10-pic1-pic1.jpg"/></dt>
+						<dd style="width: 55px;">数字商品</dd>
+					</dl>
+					<dl style="width:72px;">
+						<dt><img src="img/floor10-pic1-pic1.jpg"/></dt>
+						<dd style="width: 40px;">影像</dd>
+					</dl>
+				</div>
+
+				<div id="floor3-text2" style="width: 200px;bottom: 10px;">
+					<dl>
+						<dt>
+						睡前故事书 ><br><br>
+						白岩松新书白话>
+					</dt>
+						<dd style="width: 150px;">
+							教育 &nbsp;少儿 &nbsp;文学 &nbsp; 经营 励志&nbsp;人文社科&nbsp;生活 艺术
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--可复用-->
+			<div id="floor3-con">
+				<div id="more-pic">
+					<img src="img/floor10-pic2.jpg" />
+					<img src="img/floor10-pic3.jpg" />
+					<img src="img/floor10-pic4.jpg" />
+					<img src="img/floor10-pic5.jpg" />
+					<img src="img/floor10-pic6.jpg" />
+				</div>
+
+				<div id="more-authoer">
+					<p class="author-bt">热门作者</p>
+					<dl>
+						<dt><img src="img/floor10-author-pic1.jpg"/></dt>
+						<dd>
+							<p>觉醒的力量</p>
+							<span>"觉醒是一种巨大的内在力量"</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/floor10-author-pic2.jpg"/></dt>
+						<dd>
+							<p>启发绘本：我爸爸+我妈</p>
+							<span>"全天下的父母和孩子都会爱上他"</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/floor10-author-pic3.jpg"/></dt>
+						<dd>
+							<p>武艺2015年全新大碟</p>
+							<span>"首张高清写真生活哲学式概念大碟"</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/floor10-author-pic4.jpg"/></dt>
+						<dd>
+							<p>白举纲第一张个人全创</p>
+							<span>"披着摇滚外衣，捧着灼热内心"</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+
+			<div id="floor2-ul">
+				<ul>
+					<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+					<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+					<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--11楼-->
+		<div id="floorbt">
+			<p id="floor-bt">生活服务</p>
+
+			<ul id="floor-bt-ul">
+				<li><a href="#">大牌</a></li>
+				<li><a href="#">男装</a></li>
+				<li><a href="#">女装</a></li>
+				<li><a href="#">鞋子</a></li>
+				<li><a href="#">箱包</a></li>
+				<li class="linobg"><a href="#">内衣配饰</a></li>
+			</ul>
+		</div>
+
+		<div id="floor11-left" class="floor floor11">
+			<div id="floor2-pic" style="width: 606px;">
+				<div id="position-text">
+					<img src="img/floor11-pic1.jpg" />
+					<div id="text" style="width: 210px;height: 80px;padding: 10px 0px;">
+						<dl style="width: 120px;">
+							<dt><img src="img/floor11-pic1-pic1.jpg"/></dt>
+							<dd style="width: 55px;">众筹频道</dd>
+						</dl>
+						<dl style="width:120px;">
+							<dt><img src="img/floor11-pic1-pic1.jpg"/></dt>
+							<dd style="width:55px;">理财频道</dd>
+						</dl>
+					</div>
+					<div id="floor3-text2" style="width: 200px;bottom: 10px;">
+						<dl>
+							<dt>
+							经理陪你私募 ><br><br>
+							木薯美服小行星>
+						</dt>
+							<dd style="width: 150px;">
+								发红包 &nbsp;&nbsp;送5元 &nbsp;&nbsp;一元抽 带你赚&nbsp;母婴会&nbsp;0元试用
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<!--可复用-->
+				<div id="floor3-con" style="width: 396px;">
+					<img src="img/floor11-pic2.jpg" />
+					<img src="img/floor11-pic5.jpg" />
+					<img src="img/floor11-pic6.jpg" />
+					<img src="img/floor11-pic7.jpg" />
+					<img src="img/floor11-pic8.jpg" />
+				</div>
+			</div>
+		</div>
+		<div id="floor11-left">
+			<div id="floor2-pic" style="width: 606px;margin-left: 0;">
+				<div id="position-text">
+					<img src="img/floor11-pic3.jpg" />
+					<div id="text" style="width: 210px;height: 80px;padding: 10px 0px;">
+						<dl style="width: 120px;">
+							<dt><img src="img/floor11-pic3-pic3.jpg"/></dt>
+							<dd style="width: 55px;">旅游频道</dd>
+						</dl>
+						<dl style="width:120px;">
+							<dt><img src="img/floor11-pic3-pic3.jpg"/></dt>
+							<dd style="width:55px;">国际机票</dd>
+						</dl>
+					</div>
+					<div id="floor3-text2" style="width: 200px;bottom: 10px;">
+						<dl>
+							<dt>
+							精选特价机票><br><br>
+							数字彩全场5折>
+						</dt>
+							<dd style="width: 150px;">
+								充话费 &nbsp;&nbsp;订酒店 &nbsp;&nbsp;玩游戏 本地生活&nbsp;旅游出行&nbsp;
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<!--可复用-->
+				<div id="floor3-con" style="width: 396px;">
+					<img src="img/floor11-pic4.jpg" />
+					<img src="img/floor11-pic9.jpg" />
+					<img src="img/floor11-pic10.jpg" />
+					<img src="img/floor11-pic11.jpg" />
+					<img src="img/floor11-pic12.jpg" />
+				</div>
+			</div>
+		</div>
+
+		<div id="floor2-ul" style="float: left;overflow: hidden;margin-left: 18px;">
+			<ul>
+				<li><img src="img/floor2-ul-pic0.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic1.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic2.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic3.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic4.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic5.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic6.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic7.jpg" /><span></span></li>
+				<li><img src="img/floor2-ul-pic8.jpg" /><span></span></li>
+				<li class="linobg"><img src="img/floor2-ul-pic9.jpg" /><span></span></li>
+			</ul>
+		</div>
+
+		<div id="index-today">
+			<div id="today-left">
+				<p>今日抄底<img src="img/today-logo.jpg"></p>
+				<img src="img/today-pic1.jpg" />
+				<img src="img/today-pic2.jpg" />
+				<img src="img/today-pic3.jpg" />
+				<img src="img/today-pic4.jpg" />
+				<img src="img/today-pic4.jpg" />
+				<img src="img/today-pic3.jpg" />
+				<img src="img/today-pic2.jpg" />
+
+			</div>
+
+			<div id="today-right">
+				<p>热门晒单</p>
+				<dl>
+					<dt><img src="img/right-pic1.jpg"/></dt>
+					<dd>
+						<h6><img src="img/right-pic3.jpg"/>&nbsp;Anson谭</h6>
+						<span>"很好，很给力，网络好，good，穿墙强劲"</span>
+					</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/right-pic2.jpg"/></dt>
+					<dd>
+						<h6><img src="img/right-pic4.jpg"/>&nbsp;SONIC3D</h6>
+						<span>"亮度非常不错，中午拿到手在办公....."</span>
+					</dd>
+				</dl>
+			</div>
+
+		</div>
+
+		<div id="index-kinds">
+			<ul>
+				<li><img src="img/kinds-pic1.jpg" /> 品类齐全 轻松购物<span></span></li>
+				<li><img src="img/kinds-pic2.jpg" /> 多仓直发 极速配送<span></span></li>
+				<li><img src="img/kinds-pic3.jpg" /> 正品行货 精致服务<span></span></li>
+				<li><img src="img/kinds-pic4.jpg" /> 天天低价 畅选无忧<span></span></li>
+			</ul>
+
+		</div>
+
+		<div id="index-shop">
+			<ul>
+				<li class="first-li"><a href="#">购物指南</a></li>
+				<li><a href="#">购物流程</a></li>
+				<li><a href="#">会员介绍</a></li>
+				<li><a href="#">生活旅行/团购</a></li>
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">大家电</a></li>
+				<li><a href="#">联系客服</a></li>
+			</ul>
+			<ul>
+				<li class="first-li"><a href="#">配送方式</a></li>
+				<li><a href="#">上门自提</a></li>
+				<li><a href="#">211限时达</a></li>
+				<li><a href="#">配送服务查询</a></li>
+				<li><a href="#">配送收费标准</a></li>
+				<li><a href="#">海外配送</a></li>
+			</ul>
+			<ul>
+				<li class="first-li"><a href="#">支付方式</a></li>
+				<li><a href="#">货到付款</a></li>
+				<li><a href="#">在线支付</a></li>
+				<li><a href="#">分期付款</a></li>
+				<li><a href="#">邮局汇款</a></li>
+				<li><a href="#">公司转账</a></li>
+			</ul>
+			<ul>
+				<li class="first-li"><a href="#">售后服务</a></li>
+				<li><a href="#">售后政策</a></li>
+				<li><a href="#">价格保护</a></li>
+				<li><a href="#">退款说明</a></li>
+				<li><a href="#">退修/退换货</a></li>
+				<li><a href="#">取消订单</a></li>
+			</ul>
+			<ul>
+				<li class="first-li"><a href="#">特色服务</a></li>
+				<li><a href="#">夺宝岛</a></li>
+				<li><a href="#">DIY装机</a></li>
+				<li><a href="#">眼保服务</a></li>
+				<li><a href="#">京东E卡</a></li>
+				<li><a href="#">京东通信</a></li>
+			</ul>
+		</div>
+
+		<!--all-footer-->
+		<div id="all-footer">
+			<ul class="about-us">
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">商家入驻</a></li>
+				<li><a href="#">营销中心</a></li>
+				<li><a href="#">手机京东</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">销售联盟</a></li>
+				<li><a href="#">京东社区</a></li>
+				<li><a href="#">京东公益</a></li>
+				<li><a href="#">English Site</a></li>
+				<li class="noborder"><a href="#">Contact Us</a></li>
+			</ul>
+
+			<ul class="about-us" id="two-width">
+				<li><a href="#">北京公司朝阳奋进备案编号110105014669</a></li>
+				<li><a href="#">京ICP证070359号</a></li>
+				<li><a href="#">互联网药品信息服务资格证编号（京）-经营性-2014-0008</a></li>
+				<li class="noborder"><a href="#">新出发京零 字第大120007号</a></li>
+			</ul>
+
+			<ul class="about-us" id="three-width">
+				<li><a href="#">音像制品经营许可证苏宿批005号</a></li>
+				<li><a href="#">出版社经营许可证编号新出发（苏）批字第N-012号</a></li>
+				<li class="noborder"><a href="#">互联网出版许可证编号新出网证(京)字150号</a></li>
+			</ul>
+
+			<ul class="about-us" id="four-width">
+				<li class="noborder"><a href="#">
+				网络文化经营许可证京网文[2014]2148-348号 违法和不良信息举报电话：4006561155 Copyright&copy;2004-2015 京东JD.com版权所有
+			</a></li>
+			</ul>
+
+			<ul class="about-us" id="five-width">
+				<li class="noborder"><a href="#">
+				京东旗下网站 ： 360TOP 拍拍网   网银在线
+			</a></li>
+			</ul>
+
+			<div id="all-footer-footer">
+				<dl>
+					<dt><img src="img/footer-bg1.jpg"/></dt>
+					<dd>经营性网站备案信息</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/footer-bg2.jpg"/></dt>
+					<dd>可信网站信用评价</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/footer-bg3.jpg"/></dt>
+					<dd>朝阳网络警察提醒您</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/footer-bg4.jpg"/></dt>
+					<dd style="line-height: 33px;">诚信网站</dd>
+				</dl>
+
+				<dl style="width: 180px;background: #eee;">
+					暴恐音频举报专区
+					<br> 互联网违法和不良信息举报中心
+				</dl>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>

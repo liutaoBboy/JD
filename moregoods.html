@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/more.css">
+			
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/changeUser.js" ></script>
+		<script type="text/javascript" src="js/move.js"></script>
+		<script type="text/javascript" src="js/moregoods.js"></script>
+	</head>
+
+	<body>
+		
+		<!--右边竖线-->
+		<span id="right-bg"></span>
+
+		<!--header-->
+		<div id="all-header">
+
+			<ul id="left-ul">
+				<li>送至：<span>北京</span> <img src="img/xiajian.jpg">
+					<ul id="index-adress">
+
+					</ul>
+
+				</li>
+			</ul>
+
+			<ul id="right-ul">
+				<li id="user-name"><a href="html/login.html">欢迎您，刘滔</a> <a href="html/redister.html">免费注册</a></li>
+				<li>我的订单</li>
+				<li>我的京东 <img src="img/xiajian.jpg">
+					<ul>
+						<img style="display: block;float: left;margin-right: 20px;" src="img/myheader.jpg">
+						<span style="float: left;width: 160px;height: 60px;">
+							欢迎用户，刘滔<br>
+							<a href="">优惠券丨消息</a>
+						</span>
+						<div style="width: 110px;float: left;display: block;text-align: center;">
+							<div><a href="#">待处理订单</a></div>
+							<div><a href="#">咨询回复</a></div>
+							<div><a href="#">降价商品</a></div>
+							<div><a href="#">返修退换货</a></div>
+						</div>
+						<div style="width: 110px;float: left;display: block;text-align: center;">
+							<div><a href="#">待处理订单</a></div>
+							<div><a href="#">咨询回复</a></div>
+							<div><a href="#">降价商品</a></div>
+							<div><a href="#">返修退换货</a></div>
+						</div>
+					</ul>
+				</li>
+				<li>京东会员</li>
+				<li>企业采购</li>
+				<li><span class="bgli">手机京东</span> <img src="img/xiajian.jpg">
+					<ul style="background: white url(img/animate-pic3.jpg) no-repeat center;">
+						<li style="height: 100px;"><img class="img1" src="img/animate-pic1.jpg">
+							<p>京东客户端
+								<br>新人专享188元大礼包
+								<br><img src="img/animate-pic4.jpg"></p>
+						</li>
+						<li style="height: 100px;"><img class="img1" src="img/animate-pic2.jpg">
+							<p>京东客户端
+								<br>新人专享188元大礼包
+								<br><img src="img/animate-pic4.jpg"></p>
+						</li>
+					</ul>
+				</li>
+				<li>关注京东 <img src="img/xiajian.jpg">
+					<dl style="width:84px ;height: 106px;text-align: center;display: none;position: absolute;">
+						<dt><img src="img/about-JD.jpg"></dt>
+						<dd>关注京东</dd>
+					</dl>
+				</li>
+				<li>客服服务 <img src="img/xiajian.jpg">
+					<ul style="width: 170px;height: 160px;position: absolute;display: none;background: white;padding-left: 5px;">
+						<p>客户</p>
+						<p><a href="#">帮助中心 </a> <a href="#"> 售后服务</a></p>
+						<p><a href="#">在线客服 </a> <a href="#"> 意见建议</a></p>
+						<p><a href="#">电话客服 </a> <a href="#"> 客服邮箱</a></p>
+						<hr>
+						<p>商户</p>
+						<p><a href="#">京东商学院 </a> <a href="#"> 商家入驻</a></p>
+
+					</ul>
+				</li>
+				<li class="nobg">网站导航 <img src="img/xiajian.jpg">
+					<ul style="width: 1150px; height: 150px; position: absolute; right: 0px; padding: 20px; display: none; background: white;">
+						<h3>特色主题</h3>
+						<div class="reponse">
+							<li><a href="#">品牌街</a></li>
+							<li><a href="#">京东首发</a></li>
+							<li><a href="#">京东会员</a></li>
+							<li><a href="#">新奇特</a></li>
+							<li><a href="#">奇趣日报</a></li>
+						</div>
+						<div class="reponse">
+							<li><a href="#">好物100</a></li>
+							<li><a href="#">今日团购</a></li>
+							<li><a href="#">秒杀</a></li>
+							<li><a href="#">京东试用</a></li>
+							<li><a href="#">大牌免息</a></li>
+						</div>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+
+		<!--top-->
+		<div id="all-top">
+			<a href="index.html"><img id="logoimg" src="img/index-logo.jpg" alt=""></a>
+
+			<div id="all-searchout">
+				<div id="all-search">
+					<input type="text" name="txt" id="txt" value="">
+					<input type="button" id="btn" value="搜索">
+				</div>
+				<ul id="all-menu">
+					<li class="curr">领卷满减</li>
+					<li>中秋企彩</li>
+					<li>一元秒杀</li>
+					<li>闸蟹满减</li>
+					<li>低至3元</li>
+					<li>麦片</li>
+					<li>电热锅</li>
+					<li>牙膏</li>
+					<li>长袖衬衫女</li>
+				</ul>
+
+			</div>
+			<div id="shopcar">
+				<a href="myshopcar.html" style="width:120px;height: 37px;display: block;color: #666;">
+					<img src="img/shopcar.jpg">&nbsp; 我的的购物车 &gt;
+					<span id="shop-num">
+						0
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<!--top-nav-->
+		<div id="all-nav">
+			<ul id="nav">
+				<li id="first-li">全部商品分类</li>
+				<li>服装城</li>
+				<li>美食</li>
+				<li>全球购</li>
+				<li>服装城</li>
+				<li>闪购</li>
+				<li>团购</li>
+				<li>拍卖</li>
+				<li>金融</li>
+				<li>智能</li>
+			</ul>
+		</div>
+
+		<!--moregoods-->
+		<div id="moregoods-con">
+			<div id="good-con-header">
+				<h6>电脑、办公</h6>
+				<span><a href="#">&gt;电脑整机</a></span>
+				<span><a href="#">&gt;平板电脑</a></span>
+				<span><a href="#">&gt;Apple</a></span>
+				<span><a href="#">&gt;苹果iPad mini2</a></span>
+			</div>
+			<!--放大静-->
+			<div id="goods-change">
+				<div id="box">
+					<div id="middle-box">
+						<img src="img/moregoods-pic1.jpg">
+						<span id="glass" style="display: none; left: 167px; top: 189px;"></span>
+					</div>
+					<div id="small-box">
+						<ul id="ul-click">
+							<li><img src="img/moregoods-small-pic1.jpg"></li>
+						</ul>
+					</div>
+					<p>商品编号：9969964</p>
+					<div id="big-box" style="display: none;">
+						<img src="img/moregoods-pic1.jpg" style="top: -250.215px; left: -235.866px;">
+					</div>
+				</div>
+
+				<!--商品信息-->
+				<div id="goodsInfo">
+					<p class="goods-bt">Apple iPad mini 2 ME280CH/A (配备 Retina 显视屏7.9英寸 32G WLAN机型银色)</p>
+					<span id="goods-compare">
+						对比
+					</span>
+					<p><a href="#">领卷购买更优惠</a></p>
+
+					<div id="reduce-price">
+						<p style="height: 50px;line-height: 50px;" class="jd-price">京东价：￥<span class="price" id="iPrice">2388</span><a href="#">（降价通知）</a></p>
+						<span id="comment">
+							<dl>
+								<dt>累计评价:</dt>
+								<dd>59590</dd>
+							</dl>
+						</span>
+					</div>
+
+					<p>支持：<img src="img/moregoods-pic2.jpg" alt=""> <span>以旧换新，闲置平板电脑换E卡/京卷</span></p>
+					<p>配送至：
+						<select name="">
+							<option value="">北京朝阳区三环以内</option>
+							<option value="">北京朝阳区三环以内</option>
+							<option value="">北京朝阳区三环以内</option>
+						</select>
+						有货，支持 <a href="#">79免运费</a> | <a href="#">货到付款</a>
+					</p>
+					<p class="jd-hr">服务：由京东发货并提供售后服务。15：00前完成下单，可预约今晚送达</p>
+
+					<div id="goods-choice">
+						<p id="color-choice">选择颜色:
+							<span style="width: 84px; border: 2px solid rgb(228, 57, 60); background: url(&quot;img/moregoods-pic5.jpg&quot;) right bottom no-repeat;"><img src="img/moregoods-pic3.jpg">深空灰色</span>
+							<span style="width: 60px;"><img src="img/moregoods-pic4.jpg">银色</span>
+						</p>
+						<p id="edition-choice">选择版本:
+							<span style="border: 2px solid rgb(228, 57, 60); background: url(&quot;img/moregoods-pic5.jpg&quot;) right bottom no-repeat;">16G</span>
+							<span>32G</span>
+						</p>
+						<p id="service-choice">京东服务:
+							<select name="" class="icur">
+								<option value="">延长保修1年 ￥109.00</option>
+								<option value="">延长保修2年 ￥218.00</option>
+								<option value="">延长保修3年 ￥327.00</option>
+							</select>
+							<select name="" class="">
+								<option value="">AppleCare全方位服务计划 ￥788.00</option>
+								<option value="">AppleCare半方位服务计划 ￥399.00</option>
+								<option value="">AppleCare零方位服务计划 ￥188.00</option>
+							</select>
+							<select name="" id="screen">
+								<option value="">平板电脑屏碎保6个月 ￥69.00</option>
+								<option value="">平板电脑屏碎保12个月 ￥138.00</option>
+								<option value="">平板电脑屏碎保24个月 ￥276.00</option>
+							</select>
+						</p>
+						<p id="white-choice" style="margin-top: 40px;">白条分期:
+							<span style="width: 66px; border: 2px solid rgb(228, 57, 60); background: url(&quot;img/moregoods-pic5.jpg&quot;) right bottom no-repeat;">30天免息</span>
+							<span style="width: 100px;">每月￥99.50元起</span>
+						</p>
+
+						<div id="add-shop">
+							<div id="goods-number">
+								<div id="goods-content">1</div>
+								<span id="add">+</span>
+								<span id="delete">-</span>
+							</div>
+							<button id="add-btn">加入购物车</button>
+							<button id="easy-btn">轻松购</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!--all-footer-->
+		<div id="all-footer">
+			<ul class="about-us">
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">商家入驻</a></li>
+				<li><a href="#">营销中心</a></li>
+				<li><a href="#">手机京东</a></li>
+				<li><a href="#">友情链接</a></li>
+				<li><a href="#">销售联盟</a></li>
+				<li><a href="#">京东社区</a></li>
+				<li><a href="#">京东公益</a></li>
+				<li><a href="#">English Site</a></li>
+				<li class="noborder"><a href="#">Contact Us</a></li>
+			</ul>
+
+			<ul class="about-us" id="two-width">
+				<li><a href="#">北京公司朝阳奋进备案编号110105014669</a></li>
+				<li><a href="#">京ICP证070359号</a></li>
+				<li><a href="#">互联网药品信息服务资格证编号（京）-经营性-2014-0008</a></li>
+				<li class="noborder"><a href="#">新出发京零 字第大120007号</a></li>
+			</ul>
+
+			<ul class="about-us" id="three-width">
+				<li><a href="#">音像制品经营许可证苏宿批005号</a></li>
+				<li><a href="#">出版社经营许可证编号新出发（苏）批字第N-012号</a></li>
+				<li class="noborder"><a href="#">互联网出版许可证编号新出网证(京)字150号</a></li>
+			</ul>
+
+			<ul class="about-us" id="four-width">
+				<li class="noborder"><a href="#">
+				网络文化经营许可证京网文[2014]2148-348号 违法和不良信息举报电话：4006561155 Copyright©2004-2015 京东JD.com版权所有
+			</a></li>
+			</ul>
+
+			<ul class="about-us" id="five-width">
+				<li class="noborder"><a href="#">
+				京东旗下网站 ： 360TOP 拍拍网   网银在线
+			</a></li>
+			</ul>
+
+			<div id="all-footer-footer">
+				<dl>
+					<dt><img src="img/footer-bg1.jpg"></dt>
+					<dd>经营性网站备案信息</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/footer-bg2.jpg"></dt>
+					<dd>可信网站信用评价</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/footer-bg3.jpg"></dt>
+					<dd>朝阳网络警察提醒您</dd>
+				</dl>
+
+				<dl>
+					<dt><img src="img/footer-bg4.jpg"></dt>
+					<dd style="line-height: 33px;">诚信网站</dd>
+				</dl>
+
+				<dl style="width: 180px;background: #eee;">
+					暴恐音频举报专区
+					<br> 互联网违法和不良信息举报中心
+				</dl>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>

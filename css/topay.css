@@ -1,0 +1,74 @@
+#shopcar-logo ul{width:500px;height: 44px;line-height: 44px;float: right;}
+#shopcar-logo ul li{width:160px;height: 44px;line-height: 44px;float: left;position: relative;text-align: center;border-top: 5px solid #caecb6;border-top-right-radius: 5px;border-top-left-radius:5px;}
+#shopcar-logo ul li span{width: 22px;height: 22px;line-height:22px;display: block;position: absolute;left: 50%;margin-left: -11px;top: -14px;border-radius: 50%;background-color: #caecb6;}
+
+#shopcar-logo ul .one{color: #caecb6;}
+#shopcar-logo ul .one span{background: #caecb6;color: white;}
+#shopcar-logo ul .two{color: #7abd54;border-top: 5px solid #7abd54;}
+#shopcar-logo ul .two span{background: #7abd54;color: white;}
+#shopcar-logo ul .three{color: #ccc;border-top: 5px solid #ccc;}
+#shopcar-logo ul .three span{background: #ccc;color: white;}
+
+
+/*内容*/
+.pay-bt{width: 990px;height: 44px;line-height: 44px;margin: 0 auto;font-size: 16px;color: #666;margin-top: 30px;}
+
+#pay-con{width: 960px;overflow: hidden;margin: 0 auto;border: 1px solid #ccc;padding: 20px 18px 27px 12px;}
+#pay-con dl{width: 960px;overflow: hidden;border-bottom: 1px solid #ccc;padding-bottom: 18px;}
+#pay-con dl dt{color:#000;font-size: 14px;font-weight: bold;height: 30px;line-height: 30px;}
+#pay-con dl dt span{float: right;color: #005ea7;}
+#pay-con dl #send{overflow: hidden;}
+#pay-con dl dd span{display: block;float: left;padding: 0 10px;border: 1px solid #ccc;margin: 0 20px;height: 28px;line-height: 28px;margin-top: 5px;cursor: pointer;}
+
+#pay-con dl dd .second{width: 330px;overflow: hidden;padding-bottom: 0px;background: #f7f7f7;border: none;padding: 0 5px;float: left;}
+#pay-con dl dd .second dt{width: 330px;}
+#pay-con dl dd .second dt span{float: right;border: none;margin: 0;}
+#pay-con dl dd .second dt span img{margin:5px 5px 0 0 ;}
+#pay-con dl dd .second dd{border-bottom: 1px solid #ccc;padding-bottom: 5px;overflow: hidden;}
+#pay-con dl dd .second dd p{width: 330px;float: left;height: 28px;line-height: 28px;margin-top: 30px;}
+#pay-con dl dd .second dd p b{border: none;color: #005ea7;float: right;padding: 0;margin: 0;}
+#pay-con dl dd .second h6{float: left;color: #666;font-size: 16px;font-weight: bold;margin: 20px 0;}
+
+#good-info{width: 575px;overflow: hidden;float: left;background: #f3fbfe;padding: 47px 25px 60px 20px;}
+#good-info img{display: block;border: 1px solid #CCCCCC;float: left;}
+#pay-con #good-info span{padding: 0;margin: 0;border: 0;height: 12px;line-height: 12px;}
+#pay-con #good-info #good-name{display: block;float: left;width: 225px;margin-left: 10px;}
+#pay-con #good-info p{width:70px;height: 12px;text-align: center;float: left;}
+#pay-con #good-info span{float: none;display: initial;}
+
+#commitPay{
+	width: 100%;
+	height: 50px;
+	background: #f2f2f2;
+	position: fixed;
+	bottom: 0;
+}
+#commitPay #all-pay{float: right;color: #666;height: 50px;line-height: 50px;}
+#commitPay #all-pay #all-total{color: red;font-weight: bold;margin-right: 20px;}
+#commitPay #all-pay #submitPay{border: 0;width: 135px;height: 35px;line-height: 35px;background: #e65759;color: white;font-size: 16px;font-weight: bold;position: relative;}
+
+#commitPay #all-pay #submitPay #successed{width: 135px;height: 35px;line-height: 35px;background:#e65759;position: absolute;left: 0;display: none;}
+
+
+
+
+
+/*新增收货人地址*/
+#add-preson-addres{width: 700px;height: 370px;position: absolute;background: #FFF;border:4px solid #c2c2c2;border-radius: 5px;display: none;z-index: 999;}
+#add-preson-addres h3{width: 658px;height: 30px;line-height: 30px;background: #f3f3f3;border-left: 1px solid #a8a8a8;padding-left: 10px;color: #666;float: left;cursor: move;}
+#add-preson-addres #close{width: 30px;height: 30px ;text-align: center;line-height: 30px;color: red;float: right;font-size: 25px;cursor: pointer;}
+
+#add-preson-addres div {width: 350px;height: 25px;float: left;margin-top: 18px;}
+#add-preson-addres div select{width: 80px;text-align: center;height: 25px;line-height: 25px;}
+#add-preson-addres div span{display: block; width: 80px;height: 25px;line-height: 25px;text-align: right;float: left;margin-right: 10px;}
+#add-preson-addres div input{width: 160px;height: 25px;padding-left:10px ;line-height: 25px;float: left;}
+#add-preson-addres #more-adress {width: 600px;}
+#add-preson-addres #more-adress input{width: 256px;}
+#add-preson-addres #area{width: 400px;}
+#add-preson-addres #saveBtn{border: 0;width: 140px;height: 25px;line-height: 25px;color: white;}
+
+#stopAll{width: 100%;height: 100%;position: absolute;z-index: 998;display: none;background: #d9d9d9;opacity: 0.5;}
+
+
+#add-newpreson,#backShopCar{cursor: pointer;}
+

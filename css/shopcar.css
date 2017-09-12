@@ -1,0 +1,72 @@
+#shopcar-logo{width:990px ;height: 43px;margin: 0 auto;padding-top: 25px;}
+#shopcar-logo .logo{display: block;float: left;}
+#shopcar-logo #logo-right{width: 325px;height: 27px;border: 2px solid #c91623;float: right;}
+#shopcar-logo #logo-right input{float: left;border: 0;}
+#shopcar-logo #logo-right #txt{width: 260px;height: 27px;line-height: 27px;font-size: 14px;color: #CCCCCC;padding-left:12px ;}
+#shopcar-logo #logo-right #btn{width: 53px;height: 27px;background: #c91623;color: white;font-size: 14px;}
+
+/*购物车内容*/
+#shopcar-con{width: 990px;overflow: hidden;margin: 0 auto;margin-top:30px;background: white;}
+#shopcar-con p{width: 81px;height: 32px;color:#c91623;font-size: 18px;line-height: 32px;text-align: center;float: left;}
+#shopcar-con #shop-adress {width: 195px;height: 25px;float: right;line-height: 25px;}
+#shopcar-con #shop-adress select{width: 144px;height: 25px;float: right;}
+
+#shopcar-con #shop-chooice{width: 990px;height: 43px;line-height: 43px;background: #f3f3f3;float: left;}
+#shop-chooice #chooice-left-ul{width: 184px;height:43px ;float: left;}
+#shop-chooice #chooice-right-ul{width: 400px;height:43px ;float: right;}
+#shop-chooice ul li{width: 82px;height: 43px;line-height: 43px; color: #666;float: left;margin-right: 10px;text-align: center;font-size: 14px;}
+#shopcar-con #jdself{width: 975px;height: 22px;padding-top: 18px;color: white;float: left;padding-left: 15px;}
+#shopcar-con #jdself input{float: left;margin: 2px 5px 0 5px;}
+#shopcar-con #jdself span{display: block;width: 54px;height: 18px;line-height:18px;background:#e1383a;float: left;text-align: center;}
+
+/*商品栏*/
+#shop-goods{width: 970px;overflow: hidden;background: #fff4e8;margin: 0 auto;padding: 20px 0 15px 20px;margin-bottom: 10px;}
+#shop-goods #check{float: left;}
+#shop-goods dl{width: 396px;height: 80px;float: left;}
+#shop-goods dl dt img{display: block;float: left;margin-left:20px ;}
+#shop-goods dl dd{width: 270px;height: 80px;float: left;margin-left:10px;}
+#shop-goods dl dd p{margin-top:5px;color: #ccc;}
+#shop-goods #goods-text {width:70px;height: 70px;margin-left: 10px;float: left;}
+
+#shop-goods #goods-info{width: 400px;height: 40px;float: right;}
+#shop-goods #goods-info li{float: left;width: 82px;height: 20px;line-height: 20px;text-align: center;margin-right: 10px;}
+#shop-goods #goods-info #num{border: 1px solid #ccc;background: white;}
+#shop-goods #goods-info #num span{display: block;width:20px ;height: 20px;}
+#shop-goods #goods-info #num #del{float: left;border-right: 1px solid #ccc;}
+#shop-goods #goods-info #num #add{float: right;border-left: 1px solid #ccc;}
+#shop-goods #goods-info #total{font-weight: bold;}
+#shop-goods #goods-info #model span{display: block;float: left;width:82px;height:20px;text-align: center;}
+
+#shop-goods .goodsImg img{width: 80px;height: 83px;}
+/*支付栏*/
+#goods-pay{width: 970px;padding-left: 20px;height:50px ;margin: 0 auto;line-height: 50px;border-top: 1px solid #ccc;margin-top: 10px;}
+#goods-pay #all-chooice{width:300px;height: 50px;float: left;}
+#goods-pay #all-chooice li{float: left;margin-right: 20px;}
+
+#goods-pay #pay{width: 340px;height: 52px;float: right;}
+#goods-pay #pay p{width: 240px;height: 52px;float: left;}
+#goods-pay #pay span{color: #e4393c;}
+#goods-pay #pay #gotopay{float: right;width: 100px;height: 52px;background: #E4393C;font-size: 18px;font-weight: bold;color: white;border: 0;}
+
+/*猜猜你喜欢不*/
+#youlike {width: 990px;height: 250px;border: 1px solid #ccc;position: relative;margin: 50px auto 0;}
+#youlike #likes{width: 315px;height: 27px;position: absolute;left: -1px;top: -27px;}
+#youlike #likes li{float: left;padding: 0 25px;height: 25px;color: #ccc;border: 1px solid #ccc;line-height: 25px;margin-right: 5px;}
+#youlike #likes li:hover{height: 28px;background:white;color: red;border-bottom: none;margin-top: -2px;line-height: 28px;font-weight: bold;}
+
+#youlike #goods-box{width: 900px;height: 230px;margin: 20px auto 0;position: relative;overflow: hidden;}
+#youlike #goods-move{width: 900px;height: 230px;margin: 0 auto;position: absolute;}
+#youlike #goods-move li{float: left;width: 180px;text-align: center;}
+#youlike #goods-move li dl dt{width: 128px;height: 122px;margin-bottom: 5px;}
+#youlike #goods-move li dl dd p{font-weight: bold;color: #666;margin: 10px 0;}
+
+
+
+
+
+
+
+
+
+
+

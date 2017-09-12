@@ -1,0 +1,59 @@
+#all-header #left-ul li{position: relative;}
+#all-header #left-ul li #index-adress{position: absolute;width: 350px;height: 240px;background: white;display: none;z-index: 9999;}
+/*#all-header li:hover>img{transition: all 0.5s; transform: rotate(180deg);}*/
+#all-header #right-ul li ul{background: white;z-index: 99999;}
+#all-header #right-ul li ul .reponse{width:100px;height:80px ;float: left;}
+#all-header #right-ul li ul div li{float: none;background: none;margin: 0px;}
+#all-header #right-ul li ul a{color: #666;}
+#all-header #right-ul li ul a:hover{color: red;}
+/*index-adress*/
+
+
+/*index-轮播图-翻页按钮*/
+ #prev{width: 20px;height: 35px;position: absolute;left: 20px;top: 50%;z-index: 999;margin-top: -17px;cursor: pointer;}
+ #next{width: 20px;height: 35px;position: absolute;right: 20px;top: 50%;z-index: 999;margin-top: -17px;cursor: pointer;}
+
+/*左侧楼梯效果css*/
+#index-nav-left {list-style:none; width:50px; position:fixed; left:10px; bottom:100px; display:none;z-index: 9999;}
+#index-nav-left li {width:40px; height:30px; font-size:14px; line-height:30px; text-align:center; border:1px solid; position:relative; cursor:pointer;margin: 1px 0px;}
+#index-nav-left li span {display:block; font-size:14px; position:absolute; width:40px; height:30px; line-height:30px; text-align:center; top:0; left:0; background:red; display:none;}
+
+/*右侧楼梯效果css*/
+#index-nav-right{width: 35px;height: 222px;position: fixed;right: 0;top: 50%;z-index: 99999;}
+#index-nav-right li{width: 35px;height: 35px;margin-bottom: 2px;position: relative;}
+#index-nav-right li a{display:block;width: 35px;height: 35px;margin-bottom: 2px;color: white;}
+#index-nav-right li span{width: 65px;height: 35px;position: absolute;top:0;background: #c81623;line-height: 35px;font-size: 14px;text-align: center;opacity: 0;z-index: -10;}
+
+/*选项卡*/
+#index-banner #banner-left ul{position: relative;}
+#index-banner #banner-left ul li #index-list{position: absolute;float: none;left: 210px;top: 0;width: 744px;height: 425px;z-index: 9898989;background: white;color: #000;display: none;padding: 20px;}
+
+#index-banner #banner-left ul li #index-list ul {width: 744px;height: 35px;}
+#index-banner #banner-left ul li #index-list ul li{float: left;}
+#index-banner #banner-left ul li #index-list ul li a{padding-left: 10px;height: 35px;line-height: 35px;float: left;background: #7c7171;color: white;margin-right: 10px;}
+#index-banner #banner-left ul li #index-list ul li span{display:block;width: 35px;height: 35px;line-height: 35px;text-align: center;background: #5c5251;float: right;margin-left: 10px;color: white;}
+
+#index-banner #banner-left ul li #index-list p a{color: #666;}
+#index-banner #banner-left ul li #index-list p a:hover{color: #BC1917;}
+
+#index-banner #banner-left ul li:hover #index-list{display: block;}
+#index-banner #banner-left ul li #index-list ul li a:hover{background: #B61D1D;}
+#index-banner #banner-left ul li #index-list ul li a:hover span{background: #BC1917;}
+
+
+/*3楼轮播*/
+#floor3-con #floor3-lunbo{width: 440px;height: 236px;float: left;position: relative;overflow: hidden;}
+#floor3-con #floor3-lunbo ul{position: absolute;width: 1500px;height: 236px;}
+#floor3-con #floor3-lunbo ul li{width:440px;height:236px;float: left;}
+#floor3-con #floor3-lunbo ul li img{width:440px;height:236px;}
+/*4楼轮播*/
+#floor3-con #floor4-lunbo{width: 440px;height: 236px;float: left;position: relative;overflow: hidden;}
+#floor3-con #floor4-lunbo ul{position: absolute;width: 1500px;height: 236px;}
+#floor3-con #floor4-lunbo ul li{width:440px;height:236px;float: left;}
+#floor3-con #floor4-lunbo ul li img{width:440px;height:236px;}
+
+/*首页跨域效果*/
+#all-search{position: relative;}
+#all-search #cross-domain{position: absolute;width: 542px;top: 37px;left: -2px; z-index: 9999999999999;border: 1px solid #CCCCCC;background: #FFFFFF;display: none;}
+#all-search #cross-domain ul li{width: 542px;height: 20px;line-height: 20px;}
+#all-search #cross-domain ul li:hover{background: #ccc;}

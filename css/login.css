@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size:12px;
+	font-weight:normal;
+	font-family:"微软雅黑";
+	color:black;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal ;
+}
+ul,li{
+	list-style: none;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+/*头部*/
+#login-header{width:1267px;height: 80px;}
+#login-header img{display: block;margin:18px 0 0 141px;}
+
+
+/*内容*/
+#login-con{position: relative;width: 1027px;height: 428px;background:#f94747;padding:50px 0 0 240px ;}
+#login-con #pic{width:430px ;height: 356px;position: relative;}
+#search{position: absolute;width: 200px;height: 30px;bottom: 0;right: 0;border: 1px solid #bc1917;}
+#search input{float: left;border: 0;}
+#search #txt{width: 160px;height: 30px;}
+#search #btn{width: 40px;height: 30px;background: #bc1917 url(../img/login-pic3.jpg) no-repeat center;}
+
+#login-con #login-page{width: 304px;height: 318px;position: absolute;right: 138px;top: 40px;background: white url(../img/login-pic4.jpg) no-repeat right bottom;padding: 20px;}
+#login-page p{width: 304px;height: 30px;color: #666;font-size: 18px;line-height: 30px;}
+#login-page p span a{color:#b61d1d;font-size: 12px;float: right;}
+
+#login-page #warning{width: 254px;height: 26px;border: 1px solid #ffe787;background: #fff6d2 url(../img/login-pic5.jpg) no-repeat 10px center;color: #666;line-height: 26px;padding-left: 50px;}
+
+.login input{border: 0;float: left;width: 260px;height: 40px;padding-left:10px ;line-height: 40px;}
+.login{width: 310px;height: 40px;margin: 10px 0;border: 1px solid #ccc;}
+.login #txt{width:260px;height: 40px;padding-left: 10px;color: #ccc;}
+.login #btn{width: 40px;height: 40px;}
+#login-user #btn{background: #f3f3f3 url(../img/login-pic6.jpg) no-repeat center;}
+#login-password #btn{background: #f3f3f3 url(../img/login-pic7.jpg) no-repeat center;}
+
+#logining{width: 304px;height:40px;line-height: 40px;background:#e4393c;color: white;font-size: 20px;text-align: center;margin: 10px 0;}
+#others{margin-top: 50px;}
+#others h6{color: #666;}
+#others p a{color: #ccc;font-size: 10px ;color: #666666;}
+/*底部*/
+#all-footer .about-us{width: 836px;height: 14px;margin: 25px auto 10px;}
+#all-footer  li{float: left;border-right: 1px  solid #666666;}
+#all-footer .about-us .noborder{border: none;}
+#all-footer .about-us li a{float: left;display: block;height: 14px;line-height:14px;padding: 0 12px;color: #666666;}
+#all-footer p{text-align: center;}
